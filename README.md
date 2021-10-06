@@ -1,2 +1,9 @@
 # Opinion Mining and Sentiment Analysis
-### by Harivansh Mathur, Maulik Chhabra, Arnav Ranjan, Jatin Uppal
+
+
+### Made by 
+
+[Harivansh Mathur](https://github.com/Harivansh8888)<br/>
+[Maulik Chhabra](https://github.com/Maulikchhabra)<br/>
+[Arnav Ranjan](https://github.com/Arnav1511)<br/>
+[Jatin Uppal](https://github.com/Jatinuppal1)<br/>
