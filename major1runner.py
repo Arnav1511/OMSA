@@ -20,12 +20,12 @@ with open('E:/vectorizer.pkl', 'rb') as f:
 def predict_review(review):
     print("Function call")
     vec=vectorizer.transform([review])
-    print("Vectorized arrays for '"+review+ "' is:")
+#     print("Vectorized arrays for '"+review+ "' is:")
     print(vec)
     print("\n")
     prediction=classifier.predict(vec)
     #prediction=random.random()
-    print("The polarity of "+review+" suggested by the model is "+prediction)
+#     print("The polarity of "+review+" suggested by the model is "+prediction)
    
     return prediction;
 
@@ -45,12 +45,3 @@ if st.button("Predict"):
     result=predict_review(text)
 st.success('The output is {}'.format(result))
            
-
-
-# user_data = user_report()
-# st.header('Player Data')
-# st.write(user_data)
-
-# salary = model.predict(user_data)
-# st.subheader('Player Salary')
-# st.subheader('$'+str(np.round(salary[0], 2)))
